@@ -1,12 +1,26 @@
+// ==UserScript==
+// @name         dgiot物联网
+// @namespace    https://dgiotcloud.cn
+// @version      1.0.0
+// @description  B站首页显示dgiot专区！
+// @author       h7ml <h7ml@qq.com>
+// @match        https://www.bilibili.com/*
+// @icon         https://i0.hdslb.com/bfs/face/def9d68958ee3bd8bd0ecd9215d08a1882deb3b0.jpg@240w_240h_1c_1s.webp
+// @grant        GM_addStyle
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @license      MIT
+
+// ==/UserScript==
 ; (function () {
   'use strict'
   GM_addStyle()
 
   const USERS = [
     {
-      key_words: 'Anthony Fu',
-      channel_id: 668380,
-      avatar: 'https://i1.hdslb.com/bfs/face/519cb17285e6b9450a738472cb0b95aeb8676547.jpg@240w_240h_1c_1s.webp',
+      key_words: 'dgiot物联网',
+      channel_id: 1252767981,
+      avatar: 'https://i0.hdslb.com/bfs/face/def9d68958ee3bd8bd0ecd9215d08a1882deb3b0.jpg@240w_240h_1c_1s.webp',
     }
   ]
 
